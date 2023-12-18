@@ -27,16 +27,23 @@ var data = [
     },
     {
         employeeCode : "NV:002",
-        employeeNam : "Quang Văn 1",
+        employeeNam : "Tran Quang",
         Email : "gadhiue@gmail.com",
         Address : "Đà Nẵng",
         Mobile : "05234234"
     },
     {
         employeeCode : "NV003",
-        employeeNam : "Quang Văn 2",
+        employeeNam : "Cam Van",
         Email : "kokoaasd@gmail.com",
         Address : "HCM",
         Mobile : "08832424"
+    },
+    {
+        employeeCode: "NV004",
+        employeeNam: "Quang Hung",
+        Email: "kokoaasd@gmail.com",
+        Address: "HCM",
+        Mobile: "08832424"
     }
 ]
