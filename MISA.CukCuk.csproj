@@ -138,7 +138,6 @@
     <Content Include="content\fonts\fontello.woff" />
     <Content Include="content\fonts\Tahoma_Bold.woff" />
     <Content Include="content\fonts\Tahoma_Regular.woff" />
-    <Content Include="js\jsconfig.json" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
