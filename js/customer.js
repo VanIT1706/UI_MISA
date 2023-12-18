@@ -14,7 +14,7 @@ function loadData() {
         $('.grid tbody').append(trHTML);
     })
 }
-function test() {
+function test2{
 
 }
 var data = [
