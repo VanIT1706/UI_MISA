@@ -14,7 +14,9 @@ function loadData() {
         $('.grid tbody').append(trHTML);
     })
 }
+function test() {
 
+}
 var data = [
     {
         employeeCode : "NV001",
