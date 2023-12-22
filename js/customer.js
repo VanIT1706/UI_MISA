@@ -1,47 +1,61 @@
 ﻿$(document).ready(function () {
-    loadData();
+    //loadData();
+    var customerJS = new Customer();
+    customerJS.loadData();
 })
 
-function loadData() {
-    $.each(data, function (idex, item) {
-        var trHTML = $(`<tr>
+class Customer{
+    constructor() {
+
+    }
+    loadData() {
+        $.each(data, function (idex, item) {
+            var trHTML = $(`<tr>
                          <td>`+ item.employeeCode + `</td>
-                         <td>`+ item.employeeNam + `</td>
+                         <td>`+ item.employeeName + `</td>
                          <td>`+ item.Email + `</td>
                          <td>`+ item.Address + `</td>
-                         <td>`+ item.Mobile +`</td>
+                         <td>`+ item.Mobile + `</td>
                             </tr>`);
-        $('.grid tbody').append(trHTML);
-    })
-}
-function test2{
+            $('.grid tbody').append(trHTML);
+        })
+    }
+    add() {
+
+    }
+    edit() {
+
+    }
+    delete() {
+
+    }
 
 }
 var data = [
     {
         employeeCode : "NV001",
-        employeeNam : "Quang Văn",
+        employeeName : "Quang Văn",
         Email : "asdasd@gmail.com",
         Address : "Ben Tre",
         Mobile : "035242341"
     },
     {
-        employeeCode : "NV:002",
-        employeeNam : "Tran Quang",
+        employeeCode : "NV002",
+        employeeName : "Tran Quang",
         Email : "gadhiue@gmail.com",
         Address : "Đà Nẵng",
         Mobile : "05234234"
     },
     {
         employeeCode : "NV003",
-        employeeNam : "Cam Van",
+        employeeName : "Cam Van",
         Email : "kokoaasd@gmail.com",
         Address : "HCM",
         Mobile : "08832424"
     },
     {
         employeeCode: "NV004",
-        employeeNam: "Quang Hung",
+        employeeName: "Quang Hung",
         Email: "kokoaasd@gmail.com",
         Address: "HCM",
         Mobile: "08832424"
