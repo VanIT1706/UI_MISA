@@ -125,6 +125,7 @@
     <Content Include="content\images\vector-smart-object.png" />
     <Content Include="content\images\viewEmail.png" />
     <Content Include="js\customer.js" />
+    <Content Include="js\employee.js" />
     <Content Include="js\jquery-3.7.1.min.js" />
     <Content Include="css\pages\customer.css" />
     <Content Include="pages\customer.html" />
